@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lexington Irish Session</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/css/w3.css">
+<link rel="stylesheet" href="../static/css/styles.css">
+<script src="../static/js/abcjs-basic-min.js"></script>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+h4, h5, h6 {
+  font-family: "Playfair Display";
+}
+</style>
+
+<!-- Additional CSS Content -->
+
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-green w3-padding">
+  <a href="../index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
+  <div class="w3-right">
+    <a href="../index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="../tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
+  </div>
+  <div id="demo" class="w3-bar-block w3-light-green w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#sets" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="../tune_index.html" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-48" style="max-width:1100px">
+
+  
+<div class="w3-content w3-padding-16" style="max-width:1100px">
+    <div class="w3-container">
+    <h2 class="w3-center"><u>Denis Murphy's</u></h2>
+    
+    <div class="w3-row w3-padding-16">
+        <!-- Audio -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            
+        </div>
+
+        <!-- Video -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-16">
+        <!-- ABC Notation That is Generated to Notes -->
+        
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            <div id="denis-murphys" class="tune">
+                <pre>T: Denis Murphy's
+R: Slide
+M: 12/8
+L: 1/8
+K: D
+|:A2D FED F2A A2f|g2e f2d e2d Bcd|
+  A2D FED F2A A2f|a2f efe d3  d3:|
+|:d2e f3  gfe f3 |gfe fed e2d Bcd|
+  d2e f3  gfe f2f|a2f efe d3  d3:|</pre>
+            </div>
+        </div>
+        
+        
+        <!-- ABC Notation -->
+        
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+        <h4>ABC Notation</h4>
+            <div> 
+                <pre style="white-space: pre-wrap;">T: Denis Murphy's
+R: Slide
+M: 12/8
+L: 1/8
+K: D
+|:A2D FED F2A A2f|g2e f2d e2d Bcd|
+  A2D FED F2A A2f|a2f efe d3  d3:|
+|:d2e f3  gfe f3 |gfe fed e2d Bcd|
+  d2e f3  gfe f2f|a2f efe d3  d3:|</pre>
+                <br>
+                <a href="https://editor.drawthedots.com/?t=T%3A%20Denis%20Murphy%27s%0AR%3A%20Slide%0AM%3A%2012%2F8%0AL%3A%201%2F8%0AK%3A%20D%0A%7C%3AA2D%20FED%20F2A%20A2f%7Cg2e%20f2d%20e2d%20Bcd%7C%0A%20%20A2D%20FED%20F2A%20A2f%7Ca2f%20efe%20d3%20%20d3%3A%7C%0A%7C%3Ad2e%20f3%20%20gfe%20f3%20%7Cgfe%20fed%20e2d%20Bcd%7C%0A%20%20d2e%20f3%20%20gfe%20f2f%7Ca2f%20efe%20d3%20%20d3%3A%7C" target="_blank">
+                    <button>
+                        Edit ABC
+                    </button>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-left-align w3-light-grey w3-padding-32">
+  <p class="w3-padding-large">2025</p>
+</footer>
+
+<!-- After Javascript -->
+
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
+
+<script>
+function hamburgerMenu() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

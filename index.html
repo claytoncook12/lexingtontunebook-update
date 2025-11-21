@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lexington Irish Session</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/css/w3.css">
+<link rel="stylesheet" href="static/css/styles.css">
+<script src="static/js/abcjs-basic-min.js"></script>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+h4, h5, h6 {
+  font-family: "Playfair Display";
+}
+</style>
+
+<!-- Additional CSS Content -->
+
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-green w3-padding">
+  <a href="index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
+  <div class="w3-right">
+    <a href="index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
+  </div>
+  <div id="demo" class="w3-bar-block w3-light-green w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html#sets" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="tune_index.html" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-48" style="max-width:1100px">
+
+  
+
+<!-- Image Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:3200px;min-width:500px" id="home">
+  <img class="w3-image" src="static/images/NativeCafeTable.jpeg" alt="Native Cafe Table" width="3200" height="1600">
+  <div class="w3-display-bottomleft w3-padding-large" hidden>
+    <h1 class="w3-xxlarge">Lexington Irish Session</h1>
+  </div>
+</header>
+
+<!-- Welcome Paragraph -->
+<div class="w3-container w3-center w3-light-green" id="welcome">
+    <h1>Welcome to the Lexington Irish Session</h1>
+    <p>Enjoy traditional Irish dance music in a friendly and welcoming environment.</p>
+</div>
+
+<!-- Calendar -->
+<div class="w3-container w3-center w3-padding-16" id="calender">
+    <h2>Upcoming</h2>
+    <div class="google-calendar-container">
+        <iframe 
+            src="https://calendar.google.com/calendar/embed?src=f51d24e682f96b84acb2b8a7768e934b725a7f0cab2370677da140f15478e84a%40group.calendar.google.com&ctz=America%2FNew_York" 
+            style="border-width:0" 
+            width="800" 
+            height="600" 
+            frameborder="0" 
+            scrolling="no">
+        </iframe>
+    </div>
+</div>
+
+<!-- Set Section -->
+<div class="w3-container w3-center w3-padding-48" id="sets">
+    <h2>Sets</h2>
+    <p>Here is a selection of common sets we play.</p>
+
+
+    <div class="w3-left-align">
+        
+        <h4>Reel Sets</h4>
+        
+    </div>
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Cooley's (Edor) - Wise Maid, The (D)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: Cooley's - Wise Maid (unaccompanied)<br>
+                                <audio controls>
+                                    <source src="static/audio/Cooley's - Wise Maid - flute- 80 bpm.mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: flute
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/cooleys.html">
+                                <div id="cooleys" class="tune" >
+                                    <pre>T: Cooley's
+R: Reel
+M: C|
+L: 1/8
+K: Edor
+|:D2|"Em"EBBA B2EB|B2AB dBAG|"D"FDAD BDAD|FDFA BAGF|
+"Em"EBBA B2EB|B2AB defg|"D"afec dBAF|DEFD "Em"E2:|
+|:gf|"Em"eBB2 eBgB|eBB2 gedB|"D"A2FA DAFA|A2FA defg|
+"Em"eBB2 eBgB|eBB2 defg|"D"afec dBAF|DEFD "Em"E2:|</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/wise-maid-the.html">
+                                <div id="wise-maid-the" class="tune" >
+                                    <pre>T: The Wise Maid
+R: Reel
+M: C|
+L: 1/8
+K: Dmaj
+|:"D"F3G FEDE|FAAB AFED|d2eg fdec|dBAG "A"BEE2|
+"D"F3G FEDE|FAAB AFED|d2eg fdec|1) "A"dBAG "D"FDD2:||2) "A"dBAG "D"FDFA||
+|:"D"d2AG FDFA|dfaf "A"gfeg|"D"fAdf "A"eAce|"G"dfed "A"cAA2|
+"G"BDGB "D"ADFA|dfaf gfed|"G"Bdce "D"dBAG|"A"FGEF "D"D2FA:||"A"FGEF "D"D4||</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Concertina Reel (D) - Ships are Sailing (Emin) - Father Kelly's (G)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: The Concertina - Ships Are Sailing- Father Kelly's (unaccompanied)<br>
+                                <audio controls>
+                                    <source src="static/audio/05 The Concertina_Ships Are Sailing_Father Kelly's (unaccompanied).mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: fiddle
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/concertina-reel.html">
+                                <div id="concertina-reel" class="tune" >
+                                    <pre>T: Concertina Reel
+R: reel
+M: C|
+K: D
+  A2FA BAFA|A2FA BAFA|B2cA BAcA|B2cA BAFG |
+  A2FA BAFA|A2FA BAFE|FABc d2dB|AFEF D2FG:|
+|:Add2 Add2|AddA BAFA|B2cA BAcA|BAcA BAFG |
+  Add2 Add2|AddA BAFE|FABc d2dB|AFEF D4  :|</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/ships-are-sailing.html">
+                                <div id="ships-are-sailing" class="tune" >
+                                    <pre>T: Ships are Sailing
+R: reel
+M: C|
+K: Em
+"Em"Beed BcdB|"D"ADFD ADFA|"Em"E3F "D/F#"GFGA|"G"Beef "D"gfed|
+"Em"Beed BcdB|"D"ADFD ADFA|"Em"E3F GFGA|1) "Em"Beed e4:|2) "Em"Beed e3f||
+"Em"g3a  bgeg|"D"f2fg afdf|"Em"gfga bgeg|"D"fede "Em"e3f|
+"Em"g2ga bgeg|"D"fefg afdf|"G"g2bg "D/F#"fgaf|1) "Em"edef "D"gfef:|2) "Em"edef "D"gfed||</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/father-kellys.html">
+                                <div id="father-kellys" class="tune" >
+                                    <pre>T: Father Kelly's
+R: Reel
+M: C|
+K:G
+"G"B2GB AGEG|"G"DGGF G2AB|"C"cBAB  cBAG|"D"EAAG FDGA|
+"G"B2GB "D/F#"AGEG|"G"DGGE "G/B"GABc|"C"d2Bd  gdBd|1) "D"cFEF "G"G3A :|2) "D"cAFA "G"GABc||
+"G"d2Bd gdBd|dGBd gdBd|"A"e2^ce "A/C#"agfe|"D"defg agfe|
+"G"d2Bd gdBd|"G/B"dGBd gdBd|"C"c2Ac  "Am"BAGB|1) "D"AGFA "G"GABc :|2) "D"AGFA "G"G3A||</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    <div class="w3-left-align">
+        
+        <h4>Jig Sets</h4>
+        
+    </div>
+    
+        
+    
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Kesh (G) - Morrison's (Edor) - Tripping Up the Stairs (D)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: Kesh - Morrison's - Tripping Up the Stairs (unaccompanied)<br>
+                                <audio controls>
+                                    <source src="static/audio/Kesh - Morrsion - Tripping - flute - 100 bpm.mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: flute
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/kesh.html">
+                                <div id="kesh" class="tune" >
+                                    <pre>T: The Kesh
+R: Jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:G3 GAB|A3 ABd|edd gdd|edB dBA|
+  G3 GAB|A3 ABd|edd gdB|AGF G3:|
+|:B3 dBd|ege dBA|B2B dBG|A3 AGA|
+  B3 dBd|ege dBd|g3 aga|bgf g3:|</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/morrisons.html">
+                                <div id="morrisons" class="tune" >
+                                    <pre>T: Morrison's
+R: Jig
+M: 6/8
+L: 1/8
+K: Edor
+|:E3 B3|EBE AFD|EDE B3|dcB AFD|
+E3 B3|EBE AFD|G3 FGA|dAG FED:|
+Bee fee|aee fee|Bee fee|a2g fed|
+Bee fee|aee fee|gfe d2A|BAG FGA|
+Bee fee|aee fee|Bee fee|faf def|
+g3 gfe|def g2d|edc d2A|BAG FED|</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/tripping-up-the-stairs.html">
+                                <div id="tripping-up-the-stairs" class="tune" >
+                                    <pre>T: Tripping Up the Stairs
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:FAA GBB|FAd fed|cBc ABc|dfe dAG|
+FAA GBB|FAd fed|c2c ABc|1)dfe d2A:|2)dfe dBc||
+|:dBB fBB|f3 fed|cAA eAA|e3 edc|
+dBB fBB|f3 fed|cBc ABc|1)dfe dBc:||2)dfe d2A||</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Connaughtman's Rambles (D) - Pipe On The Hob (Dmix)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: Connaughtman's Rambles - Pipe On the Hob (unaccompanied)<br>
+                                <audio controls>
+                                    <source src="static/audio/Conn - Pipe On the Hob - flute - 100 bpm.mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: flute
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/connaughtmans-rambles.html">
+                                <div id="connaughtmans-rambles" class="tune" >
+                                    <pre>T: Connaughtman's Rambles
+R: Jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:FAA dAA|BAB dAG|FAA dfe|  d2B BAG |
+  FAA dAA|BAB def|gfe dfe|1 d2B BAG:|2 d2B B2g||
+|:fbb faa|fef ded|fbb faa|  fed e3  |
+  fbb faa|fef def|gfe dfe|1 d2B B2g:|2 d2B BAG||</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/pipe-on-the-hob.html">
+                                <div id="pipe-on-the-hob" class="tune" >
+                                    <pre>T: The Pipe On The Hob
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+A|: d^cd A2G |F2D DED |EDE cBc|  E2D DFA  |
+    dcB cBA  |BAG A2G |EDE cBc|1 E2D D2A :|2 E2D D2e||
+ |: f2d d^cd |f2d d^cd|edB c2d|  ede age  |
+ [1 f2d d^cd |f2d d^cd|ede age|  ed^c d2e:|
+ [2 ~f3 ~g3  |agf g2e |fed eag|  ed^c d2A||
+</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    <div class="w3-left-align">
+        
+        <h4>Slip Jig Sets</h4>
+        
+    </div>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Little Fair Canavans (G) - Redican's Mother (D) - Humours of Derrycrossane (G)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/little-fair-canavans.html">
+                                <div id="little-fair-canavans" class="tune" >
+                                    <pre>T: Little Fair Canavans
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: G
+|:  A|BAG AGE GED|EGD DEG A2c|BAG AGE GED|EGD DEF G2:|
+|:  A|Bdd edd BAG|Bdd edB A2c|Bdd edd BAG|GED DEF G2:|
+</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/redicans-mother.html">
+                                <div id="redicans-mother" class="tune" >
+                                    <pre>T: Redican's Mother
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: Dmaj
+  A|FAA FAd AFD|FAA FAd B2A|FAA FAd AFD|EDB, DFA B2:|
+|:e|f3 faf edB|Aff fef g2e |f3 faf edB|AFE DFA B2 :|</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/humours-of-derrycrossane.html">
+                                <div id="humours-of-derrycrossane" class="tune" >
+                                    <pre>T: Humours of Derrycrossane
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: G
+G|:B2B BAB c2c|BAG BdB ABc|BAG BdB cde|1)dBG GAF G2A:|2) dBG GAF GBd||
+ |:g3  edc Bcd|ecA ABG A2d|g2g edc Bcd|  gdB GAF GBd |
+   g3  edc Bcd|ecA ABG A2B|def gfe def|  gbg agf gdc ||  B3</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    <div class="w3-left-align">
+        
+        <h4>Polka Sets</h4>
+        
+    </div>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    I Looked East And I Looked West (G) - Julia Clifford's (D) - Scartaglen (G)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied)<br>
+                                <audio controls>
+                                    <source src="static/audio/Julia Clifford's - I Looked East And I Looked West - Scartaglen (unaccompanied).mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: fiddle
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/i-looked-east-and-i-looked-west.html">
+                                <div id="i-looked-east-and-i-looked-west" class="tune" >
+                                    <pre>T:I Looked East And I Looked West
+R:Polka
+M:2/4
+L:1/8
+K:G
+GB BA/G/|FA AB/A/|GA Bc|   d2 cA     |
+GA BA/G/|FA A>B  |cA FA|1) G2 GD    :|2) G2 GB/c/||
+dg fe   |fA A>B  |cd ef|   g2 fe     |
+dg fe   |fA A>B  |cA FA|1) G2 GB/c/ :|2) g2 GD||</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/julia-cliffords.html">
+                                <div id="julia-cliffords" class="tune" >
+                                    <pre>T:Julia Clifford's
+R:Polka
+M:2/4
+L:1/8
+K:D
+f>a ge|f>a ge |fd ed      |  e/f/e/d/ Bd    |
+f>a ge|f>a ge |fd e/f/e/c/|1)d2       de   :|2) d2 dB||
+A2 A>B|Af  a>f|ed ef/e/   |  dA       Bd/B/ |
+A2 AF |Af  a>f|ed ef/e/   |1)d2       dB   :|2) d2 d2||</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/scartaglen.html">
+                                <div id="scartaglen" class="tune" >
+                                    <pre>T:Scartaglen
+R:Polka
+M:2/4
+L:1/8
+K:G
+GG/G/ GA      |Bd de/f/   |gB B/A/G/A/|  BA A2    |
+G>A   GA      |Bd de/f/   |gd AB/A/   |1)G2 GD   :|2)G2 BB/A/||
+Gg    g2      |fe e/f/g/e/|dB B/A/G/A/|  BA AB/A/ |
+Gg    g2      |fe e/f/g/e/|dB AB/A/   |1)G2 BB/A/ |2)G2 GA/B/||
+g2    a2      |b2 ba      |g2 a2      |  b2 ba    |
+gb    e/f/g/e/|dB g>e     |dB AB/A/   |1)G2 GA/B/ |2)G2 BB/A/||G4|</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+    
+        
+    
+        
+    
+
+    <div class="w3-left-align">
+        
+        <h4>Slide Sets</h4>
+        
+    </div>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <button onclick="showNextDiv(this)" class="w3-button w3-block w3-left-align">
+                <span style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
+                    Where's the Cat (G) - The Cat's Rambles to the Child's Saucepan (D)
+                </span>
+                <div class="w3-right">+</div>
+            </button>
+            <div class="w3-container w3-padding-16 w3-hide">
+                <div class="w3-row">
+                    
+                        
+                            <div class="w3-col m12 l6 w3-panel w3-border w3-round-xxlarge">
+                                Audio: Cat Slides<br>
+                                <audio controls>
+                                    <source src="static/audio/2023-10-03 Wheres the Cat - Cats Rambles to the Child's Saucepan slides.mp3" type="audio/mp3">
+                                </audio><br>
+                                Instrument: flute
+                            </div>
+                        
+                    
+                    <div class="w3-col m8 l6">
+                        
+                            <a href="tune/wheres-the-cat.html">
+                                <div id="wheres-the-cat" class="tune" >
+                                    <pre>T:Where's the Cat
+R:Slide
+M:12/8
+L:1/8
+K:G
+Z:Center for Irish Music 2021 Common Tunes | www.centerforirishmusic.org
+"G"DED "G/B"G2D "C"E2D G3    |"Em"DED G2B "Am"ABG E2D  |"G"DED "G/B"G2D "C"E2D G2A   |"G/B"BAB "Am"c2B ABG E2D:|
+|:"G"BAB "G/B"d2B "Am"AGE c2A|"G/B"BAB d2B "Am"ABG E2D |"G"BAB "G/B"d2B "Am"AGE c3   |"C"ege "D"d2B ABG E2D   :| 
+</pre>
+                                </div>
+                            </a>
+                        
+                            <a href="tune/the-cats-rambles-to-the-childs-saucepan.html">
+                                <div id="the-cats-rambles-to-the-childs-saucepan" class="tune" >
+                                    <pre>T:The Cat's Rambles to the Child's Saucepan
+R:Slide
+M:12/8
+L:1/8
+K:D
+|:"D"d2e f2e dcd B3|"G"g2A cBA "A"e2A cBA|"D"d2e f2e dcd B3|"Em"g2A "A"cBA "D"d3 d3:|
+|:"D"d2e f2a baf a2f|"A"e2A cBA e2A cBA|"D"d2e f2a baf a2f|"Em"e2A "A"cBA "D"d3 d3:|
+</pre>
+                                </div>
+                            </a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+        
+    
+        
+    
+
+</div>
+
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-left-align w3-light-grey w3-padding-32">
+  <p class="w3-padding-large">2025</p>
+</footer>
+
+<!-- After Javascript -->
+
+<script>
+function showNextDiv(element) {
+    var nextDiv = element.nextElementSibling;
+    if (nextDiv && nextDiv.tagName === 'DIV') {
+        if (nextDiv.className.indexOf("w3-show") == -1) {
+            nextDiv.className += " w3-show";
+        } else {
+            nextDiv.className = nextDiv.className.replace(" w3-show", "");
+        }
+    }
+}
+</script>
+
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
+
+<script>
+function hamburgerMenu() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

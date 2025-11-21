@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lexington Irish Session</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/css/w3.css">
+<link rel="stylesheet" href="../static/css/styles.css">
+<script src="../static/js/abcjs-basic-min.js"></script>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+h4, h5, h6 {
+  font-family: "Playfair Display";
+}
+</style>
+
+<!-- Additional CSS Content -->
+
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-green w3-padding">
+  <a href="../index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
+  <div class="w3-right">
+    <a href="../index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="../tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
+  </div>
+  <div id="demo" class="w3-bar-block w3-light-green w3-hide w3-hide-large w3-hide-medium">
+    <a href="../index.html#sets" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Sets</a>
+    <a href="../tune_index.html" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Tune Index</a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding-48" style="max-width:1100px">
+
+  
+<div class="w3-content w3-padding-16" style="max-width:1100px">
+    <div class="w3-container">
+    <h2 class="w3-center"><u>Little Fair Canavans</u></h2>
+    
+    <div class="w3-row w3-padding-16">
+        <!-- Audio -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            
+                <h4>Audio References</h4>
+                
+                    <div class="audio-container">
+                        <p>
+                            Fair Little Canavans (slow then faster)<br>
+                            Instrument: flute
+                        </p>
+                        <audio controls>
+                            <source src="../static/audio/01_Flute_Cannavans.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                
+            
+        </div>
+
+        <!-- Video -->
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-16">
+        <!-- ABC Notation That is Generated to Notes -->
+        
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+            <div id="little-fair-canavans" class="tune">
+                <pre>T: Little Fair Canavans
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: G
+|:  A|BAG AGE GED|EGD DEG A2c|BAG AGE GED|EGD DEF G2:|
+|:  A|Bdd edd BAG|Bdd edB A2c|Bdd edd BAG|GED DEF G2:|
+</pre>
+            </div>
+        </div>
+        
+        
+        <!-- ABC Notation -->
+        
+        <div class="w3-col w3-col m12 l6 w3-padding-large">
+        <h4>ABC Notation</h4>
+            <div> 
+                <pre style="white-space: pre-wrap;">T: Little Fair Canavans
+R: Slip Jig
+M: 9/8
+L: 1/8
+K: G
+|:  A|BAG AGE GED|EGD DEG A2c|BAG AGE GED|EGD DEF G2:|
+|:  A|Bdd edd BAG|Bdd edB A2c|Bdd edd BAG|GED DEF G2:|
+</pre>
+                <br>
+                <a href="https://editor.drawthedots.com/?t=T%3A%20Little%20Fair%20Canavans%0AR%3A%20Slip%20Jig%0AM%3A%209%2F8%0AL%3A%201%2F8%0AK%3A%20G%0A%7C%3A%20%20A%7CBAG%20AGE%20GED%7CEGD%20DEG%20A2c%7CBAG%20AGE%20GED%7CEGD%20DEF%20G2%3A%7C%0A%7C%3A%20%20A%7CBdd%20edd%20BAG%7CBdd%20edB%20A2c%7CBdd%20edd%20BAG%7CGED%20DEF%20G2%3A%7C%0A" target="_blank">
+                    <button>
+                        Edit ABC
+                    </button>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-left-align w3-light-grey w3-padding-32">
+  <p class="w3-padding-large">2025</p>
+</footer>
+
+<!-- After Javascript -->
+
+<script type="text/javascript">
+    var els = document.getElementsByClassName('tune');
+    
+    var visualOptions = { responsive: 'resize' };
+    for (let index = 0; index < els.length; index++) {
+        ABCJS.renderAbc(els[index].id,els[index].textContent,visualOptions)
+        // ABCJS.renderAbc(els[index].id,els[index].textContent)
+    }
+</script>
+
+<script>
+function hamburgerMenu() {
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
