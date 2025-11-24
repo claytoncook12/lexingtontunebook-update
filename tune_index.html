@@ -21,18 +21,26 @@ h4, h5, h6 {
 <!-- Additional CSS Content -->
 
 <style>
+
 .table-container {
-    margin: 25px 0 0 0;
     width: 100%;
 }
 
 .tune-table {
     border-collapse: collapse;
+    width: 100%;
 }
 
-.tune-table th,
-.tune-table td {
-    padding: 5px 10px;
+th, td {
+    padding: 15px;
+    max-width: 400px;
+}
+
+.tune-btn {
+    width: 100%;
+    max-width: 30ch;
+    overflow-wrap: anywhere;     /* Breaks anywhere if needed */
+    white-space: normal;
 }
 
 .tune-table tbody tr {
@@ -59,17 +67,17 @@ a {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-light-green w3-padding">
-  <a href="index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge" style="letter-spacing:4px;">Lexington Irish Session</a>
+  <div class="w3-bar w3-light-green w3-padding my-background">
+  <a href="index.html" class="w3-bar-item w3-button w3-border-top w3-border-bottom w3-border-green w3-hover-white w3-round-xlarge w3-border" style="letter-spacing:4px;">Lexington Irish Session</a>
   <div class="w3-right">
-    <a href="index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Sets</a>
-    <a href="tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-round-xlarge">Tune Index</a>
+    <a href="index.html#sets" class="w3-bar-item w3-button w3-hide-small w3-light-green w3-hover-white w3-round-xlarge w3-border w3-border-green">Sets</a>
+    <a href="tune_index.html" class="w3-bar-item w3-button w3-hide-small w3-light-green w3-hover-white w3-round-xlarge w3-border w3-border-green">Tune Index</a>
   </div>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge" onclick="hamburgerMenu()">&#9776;</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium w3-hover-white w3-round-xlarge w3-border w3-border-green" onclick="hamburgerMenu()">&#9776;</a>
   </div>
-  <div id="demo" class="w3-bar-block w3-light-green w3-hide w3-hide-large w3-hide-medium">
-    <a href="index.html#sets" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Sets</a>
-    <a href="tune_index.html" class="w3-bar-item w3-button w3-hover-white w3-round-xlarge">Tune Index</a>
+  <div id="demo" class="w3-center w3-light-green w3-hide w3-hide-large w3-hide-medium my-background">
+    <a href="index.html#sets" class="w3-bar-item w3-button w3-light-green w3-hover-white w3-round-xlarge w3-border w3-border-green">Sets</a>
+    <a href="tune_index.html" class="w3-bar-item w3-button w3-light-green w3-hover-white w3-round-xlarge w3-border w3-border-green">Tune Index</a>
   </div>
 </div>
 
@@ -77,2477 +85,2477 @@ a {
 <div class="w3-content w3-padding-48" style="max-width:1100px">
 
   
-<div class="w3-content w3-padding-32" style="max-width:1100px">
+<div class="w3-content w3-padding-32">
     <div class="w3-container w3-center" id="tune-index-header">
-<h2>Tunes Alphabetically</h2>
+        <h2>Tunes Alphabetically</h2>
+        <hr>
 
-<div style="text-align: right;">
-    
-    <h3>Total Tunes: 76</h3>
+        <div class="w3-padding-16">
+            <h3>Click on Tunes Title to See More Informaiton.</h3>
+        </div>
 
-</div>
+        <div class="w3-padding-16" style="text-align: right;">
+            
+            <h3>Total Tunes: 76</h3>
+        
+        </div>
 
-<div class="w3-padding-32">
-    <h3>Click on Tunes Title to See More Informaiton.</h3>
-</div>
 
-
-<div class="table-container w3-center" style="display: flex; justify-content: center;">
-<table class="tune-table">
-    <thead class="w3-black">
-        <tr>
-            <th class="w3-center w3-black w3-padding-16">Tune Title</th>
-            <th class="w3-center w3-black">Tune Type</th>
-            <th class="w3-center w3-black">Key</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Sheet Music</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Chords</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Audio Reference</th>
-            <th class="w3-center w3-black w3-hide-medium w3-hide-small">Video Reference</th>
-        </tr>
-    </thead>
-    <tbody>
-        
-        <tr>
-            <td>
-                <a href="tune/a-fig-for-a-kiss.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    A Fig For A Kiss
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    Edor
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/ballydesmond-polka-1.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Ballydesmond Polka 1
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    Ador
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/ballydesmond-polka-2.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Ballydesmond Polka 2
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    Ador
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/bantry-bay.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Bantry Bay
-                </a>
-            </td>
-            <td>
-                hornpipe
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/barony-jig-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Barony Jig, The
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    Amin
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/blackbird.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Blackbird
-                </a>
-            </td>
-            <td>
-                set dance
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/blacksmith-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Blacksmith, The
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/blast-of-wind.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Blast of Wind
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    Dmix
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/brosna-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Brosna, The
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/cock-and-the-hen.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Cock and the Hen
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    F#min
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/comb-your-hair-and-curl-it.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Comb Your Hair and Curl It
-                </a>
-            </td>
-            <td>
-                hop jig
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/concertina-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Concertina Reel
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/congress-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Congress Reel
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    Ador
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/connaughtmans-rambles.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Connaughtman's Rambles
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/cook-in-the-kitchen-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Cook in the Kitchen, The
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/cooleys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Cooley's
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    Edor
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/denis-murphys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Denis Murphy's
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/devanneys-goat.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Devanney's Goat
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/egans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Egan's
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/farewell-to-whiskey.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Farewell to Whiskey
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/father-kellys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Father Kelly's
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/franks-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Frank's Reel
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/geese-in-the-bog.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Geese in the Bog
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    C
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/going-to-the-well-for-water.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Going to the Well For Water
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/high-road-to-kilkenny.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    High Road to Kilkenny
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/humours-of-derrycrossane.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Humours of Derrycrossane
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/humours-of-tuamgraney.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Humours of Tuamgraney
-                </a>
-            </td>
-            <td>
-                hornpipe
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/i-looked-east-and-i-looked-west.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    I Looked East And I Looked West
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/jack-regans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Jack Regan's
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    Bmin
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/jimmy-wards.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Jimmy Ward's
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/john-ryans-polka.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    John Ryan's Polka
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/johnny-mcgreevys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Johnny McGreevy's
-                </a>
-            </td>
-            <td>
-                hop jig
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/julia-cliffords.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Julia Clifford's
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/kesh.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Kesh
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/kid-on-the-mountain.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Kid on the Mountain
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    Eaeol
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/king-of-the-fairies.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    King of the Fairies
-                </a>
-            </td>
-            <td>
-                set dance
-            </td>
-            <td>
-                
-                    Eaeol
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/lakes-of-sligo.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Lakes of Sligo
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/lanigans-ball.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Lanigan's Ball
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    Edor
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/lark-on-the-strand.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Lark on the Strand
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G Modal
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/larry-ogaffs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Larry O'Gaff's
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/little-fair-canavans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Little Fair Canavans
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/lonesome-jig-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Lonesome Jig, The
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/maid-behind-the-bar-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Maid Behind the Bar, The
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/merry-blacksmith.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Merry Blacksmith
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/miss-mcleods.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Miss McLeod's
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/moms-favorite.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Mom's Favorite
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/morrisons.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Morrison's
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    Edor
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/ofarrells-welcome-to-limerick.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    O'Farrell's Welcome to Limerick
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    Dmix
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/okeefes.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    O'Keefe's
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    Ador
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/out-on-the-ocean.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Out On The Ocean
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/over-the-moor-to-maggie.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Over the Moor to Maggie
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/pipe-on-the-hob.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Pipe On The Hob
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    Dmix
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/planxty-irwin.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Planxty Irwin
-                </a>
-            </td>
-            <td>
-                waltz
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/rambling-pitchfork.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Rambling Pitchfork
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/redicans-mother.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Redican's Mother
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/rolling-wave-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Rolling Wave, The
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/sally-gardens.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Sally Gardens
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/scartaglen.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Scartaglen
-                </a>
-            </td>
-            <td>
-                polka
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/scattery-island.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Scattery Island
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/ships-are-sailing.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Ships are Sailing
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    Emin
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/shoe-the-donkey.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Shoe The Donkey
-                </a>
-            </td>
-            <td>
-                mazurka
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/si-beag-si-mor.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Si Beag Si Mor
-                </a>
-            </td>
-            <td>
-                waltz
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/snowy-path-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Snowy Path, The
-                </a>
-            </td>
-            <td>
-                slip jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/south-wind.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    South Wind
-                </a>
-            </td>
-            <td>
-                waltz
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/stack-of-barley-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Stack of Barley, The
-                </a>
-            </td>
-            <td>
-                hornpipe
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/sweets-of-may.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Sweets of May
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/the-cats-rambles-to-the-childs-saucepan.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    The Cat's Rambles to the Child's Saucepan
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/three-sea-captians.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Three Sea Captians
-                </a>
-            </td>
-            <td>
-                set dance
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/thrush-in-the-straw.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Thrush in the Straw
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/trip-to-durrow.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Trip to Durrow
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/tripping-up-the-stairs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Tripping Up the Stairs
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/vanishing-lake.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Vanishing Lake
-                </a>
-            </td>
-            <td>
-                set dance
-            </td>
-            <td>
-                
-                    Amin
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/walshs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Walsh's
-                </a>
-            </td>
-            <td>
-                hornpipe
-            </td>
-            <td>
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/wheres-the-cat.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Where's the Cat
-                </a>
-            </td>
-            <td>
-                slide
-            </td>
-            <td>
-                
-                    G
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/whistling-postman-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Whistling Postman, The
-                </a>
-            </td>
-            <td>
-                jig
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <a href="tune/wise-maid-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large">
-                    Wise Maid, The
-                </a>
-            </td>
-            <td>
-                reel
-            </td>
-            <td>
-                
-                    D
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-                    &#10003;
-                
-            </td>
-            <td class="w3-hide-medium w3-hide-small">
-                
-            </td>
-        </tr>
-        
-    </tbody>
-</table>
-</div>
-
-</div>
+        <div class="table-container w3-center w3-padding-large" style="justify-content: center;">
+            <table class="tune-table">
+                <thead class="w3-black">
+                    <tr>
+                        <th class="w3-center w3-black">Tune Title</th>
+                        <th class="w3-center w3-black">Tune Type</th>
+                        <th class="w3-center w3-black">Key</th>
+                        <th class="w3-center w3-black w3-hide-small">Sheet<br>Music</th>
+                        <th class="w3-center w3-black w3-hide-small">Chords</th>
+                        <th class="w3-center w3-black w3-hide-small">Audio<br>Reference</th>
+                        <th class="w3-center w3-black w3-hide-small">Video<br>Reference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/a-fig-for-a-kiss.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                A Fig For A Kiss
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                Edor
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/ballydesmond-polka-1.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Ballydesmond Polka 1
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                Ador
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/ballydesmond-polka-2.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Ballydesmond Polka 2
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                Ador
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/bantry-bay.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Bantry Bay
+                            </a>
+                        </td>
+                        <td>
+                            hornpipe
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/barony-jig-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Barony Jig, The
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                Amin
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/blackbird.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Blackbird
+                            </a>
+                        </td>
+                        <td>
+                            set dance
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/blacksmith-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Blacksmith, The
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/blast-of-wind.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Blast of Wind
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                Dmix
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/brosna-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Brosna, The
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/cock-and-the-hen.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Cock and the Hen
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                F#min
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/comb-your-hair-and-curl-it.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Comb Your Hair and Curl It
+                            </a>
+                        </td>
+                        <td>
+                            hop jig
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/concertina-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Concertina Reel
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/congress-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Congress Reel
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                Ador
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/connaughtmans-rambles.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Connaughtman's Rambles
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/cook-in-the-kitchen-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Cook in the Kitchen, The
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/cooleys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Cooley's
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                Edor
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/denis-murphys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Denis Murphy's
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/devanneys-goat.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Devanney's Goat
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/egans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Egan's
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/farewell-to-whiskey.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Farewell to Whiskey
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/father-kellys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Father Kelly's
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/franks-reel.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Frank's Reel
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/geese-in-the-bog.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Geese in the Bog
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                C
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/going-to-the-well-for-water.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Going to the Well For Water
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/high-road-to-kilkenny.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                High Road to Kilkenny
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/humours-of-derrycrossane.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Humours of Derrycrossane
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/humours-of-tuamgraney.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Humours of Tuamgraney
+                            </a>
+                        </td>
+                        <td>
+                            hornpipe
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/i-looked-east-and-i-looked-west.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                I Looked East And I Looked West
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/jack-regans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Jack Regan's
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                Bmin
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/jimmy-wards.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Jimmy Ward's
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/john-ryans-polka.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                John Ryan's Polka
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/johnny-mcgreevys.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Johnny McGreevy's
+                            </a>
+                        </td>
+                        <td>
+                            hop jig
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/julia-cliffords.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Julia Clifford's
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/kesh.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Kesh
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/kid-on-the-mountain.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Kid on the Mountain
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                Eaeol
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/king-of-the-fairies.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                King of the Fairies
+                            </a>
+                        </td>
+                        <td>
+                            set dance
+                        </td>
+                        <td>
+                            
+                                Eaeol
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/lakes-of-sligo.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Lakes of Sligo
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/lanigans-ball.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Lanigan's Ball
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                Edor
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/lark-on-the-strand.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Lark on the Strand
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G Modal
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/larry-ogaffs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Larry O'Gaff's
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/little-fair-canavans.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Little Fair Canavans
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/lonesome-jig-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Lonesome Jig, The
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/maid-behind-the-bar-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Maid Behind the Bar, The
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/merry-blacksmith.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Merry Blacksmith
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/miss-mcleods.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Miss McLeod's
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/moms-favorite.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Mom's Favorite
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/morrisons.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Morrison's
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                Edor
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/ofarrells-welcome-to-limerick.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                O'Farrell's Welcome to Limerick
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                Dmix
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/okeefes.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                O'Keefe's
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                Ador
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/out-on-the-ocean.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Out On The Ocean
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/over-the-moor-to-maggie.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Over the Moor to Maggie
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/pipe-on-the-hob.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Pipe On The Hob
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                Dmix
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/planxty-irwin.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Planxty Irwin
+                            </a>
+                        </td>
+                        <td>
+                            waltz
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/rambling-pitchfork.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Rambling Pitchfork
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/redicans-mother.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Redican's Mother
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/rolling-wave-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Rolling Wave, The
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/sally-gardens.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Sally Gardens
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/scartaglen.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Scartaglen
+                            </a>
+                        </td>
+                        <td>
+                            polka
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/scattery-island.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Scattery Island
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/ships-are-sailing.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Ships are Sailing
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                Emin
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/shoe-the-donkey.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Shoe The Donkey
+                            </a>
+                        </td>
+                        <td>
+                            mazurka
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/si-beag-si-mor.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Si Beag Si Mor
+                            </a>
+                        </td>
+                        <td>
+                            waltz
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/snowy-path-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Snowy Path, The
+                            </a>
+                        </td>
+                        <td>
+                            slip jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/south-wind.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                South Wind
+                            </a>
+                        </td>
+                        <td>
+                            waltz
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/stack-of-barley-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Stack of Barley, The
+                            </a>
+                        </td>
+                        <td>
+                            hornpipe
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/sweets-of-may.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Sweets of May
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/the-cats-rambles-to-the-childs-saucepan.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                The Cat's Rambles to the Child's Saucepan
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/three-sea-captians.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Three Sea Captians
+                            </a>
+                        </td>
+                        <td>
+                            set dance
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/thrush-in-the-straw.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Thrush in the Straw
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/trip-to-durrow.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Trip to Durrow
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/tripping-up-the-stairs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Tripping Up the Stairs
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/vanishing-lake.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Vanishing Lake
+                            </a>
+                        </td>
+                        <td>
+                            set dance
+                        </td>
+                        <td>
+                            
+                                Amin
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/walshs.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Walsh's
+                            </a>
+                        </td>
+                        <td>
+                            hornpipe
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/wheres-the-cat.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Where's the Cat
+                            </a>
+                        </td>
+                        <td>
+                            slide
+                        </td>
+                        <td>
+                            
+                                G
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/whistling-postman-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Whistling Postman, The
+                            </a>
+                        </td>
+                        <td>
+                            jig
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="tune-btn">
+                            <a href="tune/wise-maid-the.html" class="w3-button w3-light-green w3-hover-indigo w3-round-large tune-btn w3-border w3-border-green">
+                                Wise Maid, The
+                            </a>
+                        </td>
+                        <td>
+                            reel
+                        </td>
+                        <td>
+                            
+                                D
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                                &#10003;
+                            
+                        </td>
+                        <td class="w3-hide-small">
+                            
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div> 
 
   
@@ -2555,8 +2563,8 @@ a {
 </div>
 
 <!-- Footer -->
-<footer class="w3-left-align w3-light-grey w3-padding-32">
-  <p class="w3-padding-large">2025</p>
+<footer class="w3-left-align w3-light-grey w3-padding-16 my-background">
+  <p class="">@2025</p>
 </footer>
 
 <!-- After Javascript -->
